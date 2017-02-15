@@ -1,0 +1,20 @@
+1.Enter the workspace directory and type commands below:
+git init
+git add .
+git commit -m '...remark...'
+
+2. Copy the URL on Github repositary to upload.
+git remote add origin < url from Github>
+git push -u origin master
+
+------------------------------------------------------------
+Notes:
+If you enabled two-factor authentication in your Github account you won't be able to push via HTTPS using your accounts password. Instead you need to generate a personal access token. This can be done in the application settings of your Github account. Using this token as your password should allow you to push to your remote repository via HTTPS. Use your username as usual.
+
+ex:
+git remote -v 
+git remote remove origin 
+git remote add origin git@github.com:user/repo.git  
+
+Reference:
+http://stackoverflow.com/questions/17659206/git-push-results-in-authentication-failed

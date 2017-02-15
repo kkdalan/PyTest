@@ -1,0 +1,13 @@
+1. crontab 
+2. hashlib.md5('').hexdigest()
+3. index.php showing
+4. brew install geckodriver
+5. flask login
+6. [done] settings.py Change that to MIDDLEWARE to MIDDLEWARE_CLASSES
+7. ./ngrok http 3000 ( run ngrok )
+8. django form : 
+   https://tutorial.djangogirls.org/en/django_forms/
+9. mailgun setting
+
+Creating ⬢ rms-app... done
+https://rms-app.herokuapp.com/ | https://git.heroku.com/rms-app.git
