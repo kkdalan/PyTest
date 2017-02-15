@@ -2,7 +2,7 @@ import urllib
 
 
 def download_pic(file_no):
-    url = "http://cm2.kiseouhgf.info/comicservice/images/fpic/thumbs/jJL8_e9VW9u/" + file_no + ".jpg"
+    url = "http://xxxxxxx/" + file_no + ".jpg"
     f = open(url.split("/")[-1],'wb')
     f.write(urllib.urlopen(url).read())
     f.close()
